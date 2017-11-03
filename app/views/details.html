@@ -1,0 +1,70 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Confirmation page example
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+  <div class="breadcrumbs">
+    <ol>
+      <li><a href="https://www.gov.uk">Home</a></li>
+      <li><a href="">Section</a></li>
+      <li>Subsection</li>
+    </ol>
+  </div>
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-xlarge">
+      When's this salty little shindig happening then?
+      </h1>
+
+      <h2 class="heading-medium">
+      Date
+    </h2>
+
+(autherror!value=//**datesbeforemates#fail!?FFS=when?=Thursday14December)
+
+    <h2 class="heading-medium">
+    Time
+  </h2>
+
+  (autherror!value=//**ticktock#fail!?FFS=xmast1me=6.30pm)
+
+  <h2 class="heading-medium">
+  Location
+</h2>
+
+<p>(autherror!value=//**locationlocationlocation#fail!?FFS=restaurant=The Mug House)</p>
+
+<br>
+      <p>
+        <a class="button button-start" href="more" role="button">I'm so excited I could shit</a>
+      </p>
+
+
+    </div>
+    <div class="column-third">
+
+      <aside class="govuk-related-items" role="complementary">
+        <h2 class="heading-medium" id="subsection-title">Subsection</h2>
+        <p><img src="public/images/garland.jpg" alt=""></p>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="font-xsmall">
+            <li><a href="#">Related link</a></li>
+            <li><a href="#">Related link</a></li>
+            <li><a href="#" class="bold-xsmall">More <span class="visuallyhidden">in Subsection</span></a></li>
+          </ul>
+        </nav>
+      </aside>
+
+    </div>
+  </div>
+
+</main>
+
+{% endblock %}
